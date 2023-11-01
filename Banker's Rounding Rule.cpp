@@ -37,7 +37,9 @@ int main ()
     string num, result="" ;
     char nth_digit, nPlus1th_digit ;
     int sig_digit, index, x, y ;
+    cout<<"Enter the number: " ;
     cin>>num ;
+    cout<<"Enter the number of significant digits: " ;
     cin>>sig_digit ;
 
     int f=0 ;
@@ -65,31 +67,33 @@ int main ()
         }
     }
 
-    x = nPlus1th_digit - '0' ;                      // (n+1)th digit
-    //cout<<"x : "<<x<<NL ;
+    x = nPlus1th_digit - '0' ;
 
-    if(x<5)                                              // (n+1)th digit < 5
+    if(x<5)
         num[index] = num[index] ;
 
-    else if(x>5)                                        // (n+1)th digit > 5
+    else if(x>5)
         num[index] = num[index] +1 ;
 
-    else                                                  // (n+1)th digit = 5
+    else
     {
-        y = nth_digit - '0' ;            // check if nth digit is even of odd
+        y = nth_digit - '0' ;
         if(y%2!=0)
             num[index] = num[index] +1 ;
 
     }
 
-    //cout<<"num[index] : "<<num[index]<<NL ;
-
+    cout<<"\nOutput : " ;
     for(int i=0; i<=index; i++)
         cout<<num[i] ;
+    cout<<"\n" ;
 
-
-
-
-
+    
     return 0 ;
 }
+/*
+Input :
+Enter the number: 0.859458
+Enter the number of significant digits: 4
+Output : 0.8594
+*/
