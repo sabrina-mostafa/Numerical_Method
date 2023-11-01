@@ -59,3 +59,13 @@ int main ()
 
     return 0 ;
 }
+/*
+Enter the value of n : 3
+Enter the value of x : 2
+Enter the value of a3 : 1
+Enter the value of a2 : -4
+Enter the value of a1 : 1
+Enter the value of a0 : 6
+
+f(x) = 0
+*/
