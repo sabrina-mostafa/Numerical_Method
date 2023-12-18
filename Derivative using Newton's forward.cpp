@@ -199,6 +199,7 @@ F[3] : 64
 F[4] : 125
 F[5] : 216
 
+Enter X for which the value is to be found: 1
 Solution:  The value of f1 : 3
                   The value of f2 : 6
 */
