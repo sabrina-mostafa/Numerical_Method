@@ -76,3 +76,12 @@ int main()
 
     return 0 ;
 }
+
+/*
+Enter Initial Condition.
+x0 = 1
+y0 = 2
+Enter calculation point xn = 2
+Enter the value of h: 0.25
+Solution: Value of y at x = 2.0000 is 7.8608
+*/
